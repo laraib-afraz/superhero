@@ -1,12 +1,5 @@
 body{
-	background-image: url('images/banner.jpg');
 	
-	
-	
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
 	background-color: white;
         }
 	
@@ -23,11 +16,17 @@ body{
 .container{
 	/* margin: 50px 20px; */
 	min-width: 100%;
-	margin-top: 22vh;
+	
 }
 .box{
-          width: 400px;
-          height: 200px;
+          
+    background-image: url('images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+		background-color: white;
+          width: 100vw;
+          height: 454px;
           border: 2px ;
         }
 
@@ -44,8 +43,10 @@ body{
 
 .search-container > input {
 	width: 60vw;
-	margin: 50px auto !important;
+	margin: 20px auto !important;
 	border-radius: 30px;
+	border-color: darkred;
+	
 
 }
 
@@ -77,7 +78,7 @@ body{
 	margin: 0px;
 	padding-left: 5px;
 	width: 50.9vw;
-	top: 56%;
+	top: 60%;
 	left: 24.5%;
 	padding: 5px 20px;
 	width:;
